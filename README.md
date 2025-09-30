@@ -51,9 +51,9 @@ Bot: Goodbye! Have a great day!
 
 ## Python Code
 
-# Function to get chatbot response
+    # Function to get chatbot response
 
-def chatbot_response(user_input):
+    def chatbot_response(user_input):
 
     user_input = user_input.lower()
 
@@ -90,8 +90,8 @@ def chatbot_response(user_input):
     else:
         return "Sorry, I didn't understand that. Can you try saying it differently?"
 
-# Main chat loop
-def chat():
+    # Main chat loop
+    def chat():
     
     print("Welcome to the Extended ChatBot! (Type 'bye' to exit)")
     
@@ -103,8 +103,10 @@ def chat():
         if user_input.lower() in ["bye", "goodbye", "exit", "quit"]:
             break
 
-# Run chatbot
-if __name__ == "__main__":
+    # Run chatbot
+
+    if __name__ == "__main__":
+
     chat()
 
 
